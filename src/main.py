@@ -6,15 +6,14 @@ def main():
 
     userIp = input("Enter your ip: ")
 
-    if validIp4v(userIp) == True:
+    if validIp4v(userIp):
         print("The ip is valid")
 
         binaryArr = ipToBinarySystem(userIp) 
         
-
         print(binaryArr)
 
-    elif validIp4v(userIp) == False:
+    elif validIp4v(userIp):
         print("The ip is invalid")
 
 
