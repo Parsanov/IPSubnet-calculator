@@ -6,7 +6,6 @@ def ipToBinarySystem(ip):
 
     octectsArr = ip.split(".")
 
-    
     ipNumber = [int(x) for x in octectsArr] 
 
 
